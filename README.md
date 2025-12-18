@@ -25,6 +25,8 @@ Example:
       =>  Accessible only within that block
       =>  Must be initialized before use
 
+   Example:
+
 
     public class Main {
         public static void main(String[] args) {
@@ -38,6 +40,10 @@ Example:
     => Declared inside a class but outside methods
     => Each object has its own copy
     => Default values are automatically assigned
+
+   Example:
+
+
 
     class Student {
         int rollNo;       // instance variable
@@ -61,6 +67,8 @@ Example:
        => Declared inside a class with static keyword
        => Shared by all objects of the class
        => Default values are automatically assigned
+
+   Example:
 
       class Student {
         static String school = "ABC School"; // class variable
