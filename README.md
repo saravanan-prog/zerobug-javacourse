@@ -2,7 +2,8 @@ Java Variables
 --------------
 
 A variable in Java is like a container used to store data values that can change during program execution.
-    Syntax:
+    
+Syntax:
 
         dataType variableName = value;
 
@@ -20,9 +21,8 @@ Example:
             Case-sensitive: age ≠ Age
             Use meaningful names
 
-
-1. Local Variables
-   ----------------
+Local Variables
+----------------
       1.  Declared inside a method, constructor, or block
       2. Accessible only within that block
       3.  Must be initialized before use
@@ -36,8 +36,8 @@ Example:
             }
         }
 
-2. Instance Variables (Non-Static Fields)
-   --------------------------------------
+Instance Variables (Non-Static Fields)
+--------------------------------------
     1. Declared inside a class but outside methods
     2. Each object has its own copy
     3. Default values are automatically assigned
@@ -62,8 +62,8 @@ Example:
             }
        }
 
-   3. Class Variables (Static Variables)
-      ----------------------------------
+Class Variables (Static Variables)
+----------------------------------
        1. Declared inside a class with static keyword
        2. Shared by all objects of the class
        3. Default values are automatically assigned
