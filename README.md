@@ -23,9 +23,9 @@ Example:
 
 Local Variables
 ----------------
-      1.  Declared inside a method, constructor, or block
-      2. Accessible only within that block
-      3.  Must be initialized before use
+1. Declared inside a method, constructor, or block
+2. Accessible only within that block
+3. Must be initialized before use
 
    Example:
 
@@ -38,9 +38,9 @@ Local Variables
 
 Instance Variables (Non-Static Fields)
 --------------------------------------
-    1. Declared inside a class but outside methods
-    2. Each object has its own copy
-    3. Default values are automatically assigned
+1. Declared inside a class but outside methods
+2. Each object has its own copy
+3. Default values are automatically assigned
 
 
    Example:
@@ -64,9 +64,9 @@ Instance Variables (Non-Static Fields)
 
 Class Variables (Static Variables)
 ----------------------------------
-       1. Declared inside a class with static keyword
-       2. Shared by all objects of the class
-       3. Default values are automatically assigned
+1. Declared inside a class with static keyword
+2. Shared by all objects of the class
+3. Default values are automatically assigned
 
    Example:
 
@@ -82,14 +82,14 @@ Class Variables (Static Variables)
 
 Final Variable
 --------------
-    1. Once assigned, its value cannot be modified.
-    2. Must be initialized either at the point of declaration or in the constructor (if it’s an instance variable).
+1. Once assigned, its value cannot be modified.
+2. Must be initialized either at the point of declaration or in the constructor (if it’s an instance variable).
 
-    Example:
-        public class Test {
-            final int x = 10;  // initialized at declaration
+   Example:
+       public class Test {
+           final int x = 10;  // initialized at declaration
             
-                public void example() {
-                    // x = 20; // Error! Cannot assign a value to final variable x
-                }
-        }
+               public void example() {
+                   // x = 20; // Error! Cannot assign a value to final variable x
+               }
+       }
