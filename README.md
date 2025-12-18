@@ -1,12 +1,14 @@
 Java Variables
 --------------
 
-1. A variable in Java is like a container used to store data values that can change during program execution.
-Syntax:
+A variable in Java is like a container used to store data values that can change during program execution.
+    Syntax:
+
         dataType variableName = value;
+
 Example:
-        int age = 25;
-                
+         int age = 25;
+
                 int → data type
                 age → variable name
                 25  → value assigned
@@ -27,7 +29,6 @@ Example:
 
    Example:
 
-
         public class Main {
             public static void main(String[] args) {
                 int age = 25; // local variable
@@ -37,13 +38,12 @@ Example:
 
 2. Instance Variables (Non-Static Fields)
    --------------------------------------
-    => Declared inside a class but outside methods
-    => Each object has its own copy
-    => Default values are automatically assigned
+    1. Declared inside a class but outside methods
+    2. Each object has its own copy
+    3. Default values are automatically assigned
+
 
    Example:
-
-
 
         class Student {
             int rollNo;       // instance variable
