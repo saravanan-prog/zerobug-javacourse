@@ -79,4 +79,17 @@ Class Variables (Static Variables)
                 System.out.println(Student.school);
            }
        }
-    
+
+Final Variable
+--------------
+    1. Once assigned, its value cannot be modified.
+    2. Must be initialized either at the point of declaration or in the constructor (if it’s an instance variable).
+
+    Example:
+        public class Test {
+            final int x = 10;  // initialized at declaration
+            
+                public void example() {
+                    // x = 20; // Error! Cannot assign a value to final variable x
+                }
+        }
