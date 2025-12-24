@@ -13,9 +13,7 @@ public class BasicClassObj {
 
         System.out.println("First Number ====>" + BasicClassObj.firstNumber);
         System.out.println("Second Number ====>" + bco.secondNumber);
-
         System.out.println("pirce ========>"+bco.price);
-
         System.out.println("tax ========>"+bco.tax);
 
     }
