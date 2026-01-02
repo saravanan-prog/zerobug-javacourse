@@ -10,7 +10,6 @@ public class BasicClassObj {
     public static void main(String[] args) {
         //local variables
         BasicClassObj bco = new BasicClassObj();
-
         System.out.println("First Number ====>" + BasicClassObj.firstNumber);
         System.out.println("Second Number ====>" + bco.secondNumber);
         System.out.println("pirce ========>"+bco.price);
